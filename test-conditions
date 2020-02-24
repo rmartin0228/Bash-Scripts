@@ -1,0 +1,18 @@
+#!/bin/bash
+#Declare Variables
+
+varA=5
+varB=10
+
+if [ $varA -gt $varB ]
+then
+   echo "varA, with a value of $varA , is greater than varB, with a value of $varB"
+
+elif [ $varA -lt $varB ]
+then
+   echo "varB, with a value of $varB , is greater than varA, with a value of $varA"
+
+else
+   echo "varA and varB have the same value, which is $varA"
+
+fi
